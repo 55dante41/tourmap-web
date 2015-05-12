@@ -145,7 +145,7 @@ var HomePageViewModel = function() {
           var markerOpts = {
             'map': _self.map,
             'position': _self.nearbyAtmServices[selectedLocationId][i].geometry.location,
-            'icon': '/images/marker-blue-atm.png'
+            'icon': '/images/marker-atm.png'
           };
           var marker = new google.maps.Marker(markerOpts);
           _self.nearbyAtmMarkersForSelectedLocation.push(marker);
